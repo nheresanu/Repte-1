@@ -1,1 +1,16 @@
+button{
+    width: 100px;
+    height: 45px;
+    border-radius: 1px;
 
+}
+#teclas{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 400px;
+}
+#muestra{
+    width: 38%;
+    padding: 15px;
+    text-align: left;
+}
