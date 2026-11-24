@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+  <head>
+    <title> Calculadora </title>
+  </head>
+<body>
 
+  <div id="contenedor">
+    <input id="muestra">
+    <div>
+      <button onclick="appendDisplay('+')">+</button>
+      <button onclick="appendDisplay('7')">7</button>
+      <button onclick="appendDisplay('8')">8</button>
+      <button onclick="appendDisplay('9')">9</button>
+      <button onclick="appendDisplay('-')">-</button>
+      <button onclick="appendDisplay('4')">4</button>
+      <button onclick="appendDisplay('5')">5</button>
+      <button onclick="appendDisplay('6')">6</button>
+      <button onclick="appendDisplay('*')">*</button>
+      <button onclick="appendDisplay('1')">1</button>
+      <button onclick="appendDisplay('2')">2</button>
+      <button onclick="appendDisplay('3')">3</button>
+      <button onclick="appendDisplay('/')">/</button>
+      <button onclick="appendDisplay('0')">0</button>
+      <button onclick="appendDisplay('.')">.</button>
+      <button onclick="calcular()">=</button>
+      <button onclick="borrartodo()">C</button>
+    </div>
+  </div>
+</body>
