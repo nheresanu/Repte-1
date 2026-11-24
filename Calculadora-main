@@ -1,6 +1,7 @@
 <!DOCTYPE html>
   <head>
     <title> Calculadora </title>
+    <link rel="hojaestilo" href="estilo.css"
   </head>
 <body>
 
@@ -26,4 +27,6 @@
       <button onclick="borrartodo()">C</button>
     </div>
   </div>
+
+<script src="script.js></script>
 </body>
